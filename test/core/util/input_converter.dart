@@ -9,7 +9,7 @@ void main() {
   });
   group('stringToUnsignedInt', () {
     test(
-        'shouldreturn an integer when the string represents an unsigned integer',
+        'should return an integer when the string represents an unsigned integer',
         () {
       final str = '123';
       final result = inputConvertor.stringToUnsignedInteger(str);

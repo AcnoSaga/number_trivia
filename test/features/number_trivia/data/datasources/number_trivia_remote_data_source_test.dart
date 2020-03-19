@@ -1,6 +1,5 @@
 import 'dart:convert';
 
-import 'package:flutter/material.dart' as prefix0;
 import 'package:i_am_a_gamer/core/error/exceptions.dart';
 import 'package:i_am_a_gamer/features/number_trivia/data/datasource/number_trivia_remote_data_source.dart';
 import 'package:i_am_a_gamer/features/number_trivia/data/models/number_trivia_model.dart';

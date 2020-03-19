@@ -4,7 +4,7 @@ import 'package:i_am_a_gamer/core/error/failures.dart';
 class InputConverter {
   Either<Failure, int> stringToUnsignedInteger(String str) {
     try {
-      final integer = int.parse(str);
+      final integer = int.parse(str ?? '');
       if (integer < 0) throw FormatException();
       return Right(integer);
     } on FormatException {

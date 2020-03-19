@@ -4,7 +4,6 @@ import 'package:flutter/foundation.dart';
 import 'package:i_am_a_gamer/core/error/exceptions.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
-import '../../domain/entities/number_trivia.dart';
 import '../models/number_trivia_model.dart';
 
 abstract class NumberTriviaLocalDataSource {
